@@ -1,0 +1,672 @@
+2026-04-14 22:12:35,170 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-14 22:12:35,171 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-14 22:12:35,171 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-14 22:12:35,193 [INFO] [MainThread] [root/config.py:59]: Created default config file at C:\Users\pov\.config\yasb\config.yaml
+2026-04-14 22:12:35,207 [INFO] [MainThread] [root/config.py:73]: Created default stylesheet at C:\Users\pov\.config\yasb\styles.css
+2026-04-14 22:12:35,624 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-14 22:12:35,661 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-14 22:12:35,761 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-14 22:12:35,761 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-14 22:12:35,761 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-14 22:12:35,762 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-14 22:12:35,762 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-14 22:12:35,795 [INFO] [Dummy-7] [root/event_listener.py:55]: Created named pipe yasb-b707d630-3889-11f1-8453-6eabce408cbd
+2026-04-14 22:12:35,825 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-14 22:12:35,876 [INFO] [MainThread] [root/open_meteo.py:138]: No saved location for open_meteo. Awaiting user setup.
+2026-04-14 22:15:07,115 [DEBUG] [Thread-5] [root/watcher.py:84]: Stylesheet modified: c:\users\pov\.config\yasb\styles.css
+2026-04-14 22:15:08,242 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-14 22:15:11,338 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-14 22:15:11,361 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-14 22:15:11,464 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-14 22:15:11,464 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-14 22:15:11,467 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-14 22:15:11,498 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-14 22:15:11,502 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-14 22:15:11,505 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-14 22:15:11,884 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-14 22:15:11,884 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-14 22:15:11,884 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-14 22:15:12,373 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-14 22:15:12,447 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-14 22:15:12,447 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - weather
+      location:
+      - Input should be a valid string
+      api_key:
+      - Input should be a valid string
+      
+ - wallpapers
+      image_path:
+        str:
+        - Input should be a valid string
+        list[str]:
+        - Input should be a valid list
+      
+2026-04-14 22:15:12,470 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-14 22:15:12,470 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-14 22:15:12,505 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-14 22:16:50,796 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-14 22:16:50,812 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-14 22:16:50,923 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-14 22:16:50,923 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-14 22:16:50,926 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-14 22:16:50,976 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-14 22:16:51,293 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-14 22:16:51,294 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-14 22:16:51,294 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-14 22:16:51,678 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-14 22:16:51,748 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-14 22:16:51,748 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - weather
+      location:
+      - Input should be a valid string
+      
+ - wallpapers
+      image_path:
+        str:
+        - Input should be a valid string
+        list[str]:
+        - Input should be a valid list
+      
+2026-04-14 22:16:51,770 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-14 22:16:51,770 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-14 22:16:51,797 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-14 22:18:51,968 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: stop
+2026-04-14 22:18:51,968 [INFO] [CLIPipeServer] [root/controller.py:43]: Exiting Application from CLI...
+2026-04-14 22:18:52,068 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-14 22:18:52,069 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-14 22:18:52,127 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-14 22:18:53,098 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-14 22:18:53,099 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-14 22:18:53,099 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-14 22:18:53,264 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-14 22:18:53,547 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-14 22:18:53,548 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-14 22:18:53,548 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-14 22:18:53,578 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-98356ad6-388a-11f1-8776-6eabce408cbd
+2026-04-14 22:18:53,594 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-14 22:18:53,997 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-14 22:18:53.997828
+2026-04-14 22:19:38,871 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-14 22:19:46,662 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-14 22:19:46,769 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-14 22:19:46,769 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-14 22:19:46,799 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-14 22:19:47,125 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-14 22:19:47,126 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-14 22:19:47,126 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-14 22:19:47,277 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-14 22:19:47,529 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-14 22:19:47,530 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-14 22:19:47,530 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-14 22:19:47,552 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-b8627cbc-388a-11f1-a01d-6eabce408cbd
+2026-04-14 22:19:47,569 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-14 22:19:47,776 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-14 22:19:47.776771
+2026-04-14 22:22:50,407 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: stop
+2026-04-14 22:22:50,407 [INFO] [CLIPipeServer] [root/controller.py:43]: Exiting Application from CLI...
+2026-04-14 22:22:50,511 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-14 22:22:50,511 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-14 22:22:50,537 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-14 22:22:51,600 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-14 22:22:51,600 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-14 22:22:51,600 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-14 22:22:52,120 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-04-14 22:22:52,122 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-14 22:22:52,122 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-14 22:22:52,122 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-14 22:22:52,123 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-14 22:22:52,123 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-14 22:22:52,123 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-266912d6-388b-11f1-ad17-6eabce408cbd
+2026-04-14 22:22:52,148 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-14 22:22:52,155 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-14 22:22:52,155 [DEBUG] [MainThread] [systray_widget/systray.py:624]: State file not found.
+2026-04-14 22:22:52,156 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-14 22:22:52,360 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 3474974
+2026-04-14 22:22:52,362 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-14 22:22:52,364 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49243
+2026-04-14 22:22:52,364 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-14 22:24:27,570 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-14 22:24:29,167 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 3474974
+2026-04-14 22:24:29,215 [INFO] [MainThread] [root/bar_helper.py:561]: AppBarManager need to re-register 1 bar
+2026-04-14 22:24:29,231 [INFO] [MainThread] [root/bar_helper.py:570]: Re-registered AppBar for primary-bar_Sceptre Y32_0bf0d165 (space reservation + fullscreen)
+2026-04-15 12:05:38,863 [DEBUG] [MainThread] [root/utilities.py:262]: Failed to get version info for D:\file-restore\restored\Root\- Temp\Clrnt\app.exe: (1813, 'GetFileVersionInfo:GetFileVersionInfoSize', 'The specified resource type cannot be found in the image file.')
+2026-04-16 10:16:24,110 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 10:16:24,111 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 10:16:24,111 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 10:16:24,940 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-04-16 10:16:24,942 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-16 10:16:24,942 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 10:16:24,942 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-16 10:16:24,943 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-ff40b931-39b7-11f1-97c9-6eabce408cbd
+2026-04-16 10:16:24,943 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 10:16:24,943 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 10:16:24,979 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 10:16:25,011 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 10:16:25,012 [DEBUG] [MainThread] [systray_widget/systray.py:624]: State file not found.
+2026-04-16 10:16:25,012 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-16 10:16:25,219 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 2689972
+2026-04-16 10:16:25,221 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-16 10:16:25,224 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49363
+2026-04-16 10:16:25,224 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-16 10:17:19,634 [DEBUG] [MainThread] [root/utilities.py:211]: Direct UWP lookup failed for Microsoft.Windows.Search_1.14.18.19041_neutral_neutral_cw5n1h2txyewy: [WinError -2147023060] The RPC call contains a handle that differs from the declared handle type.
+2026-04-16 10:17:19,636 [DEBUG] [MainThread] [root/utilities.py:233]: Fallback UWP lookup failed for Microsoft.Windows.Search_1.14.18.19041_neutral_neutral_cw5n1h2txyewy: [WinError -2147023060] The RPC call contains a handle that differs from the declared handle type.
+2026-04-16 10:27:52,437 [DEBUG] [MainThread] [root/utilities.py:262]: Failed to get version info for D:\file-restore\restored\Root\Files\Projects\Applications\Polar Manifests\scripts\scraper\polar-scraper.exe: (1813, 'GetFileVersionInfo:GetFileVersionInfoSize', 'The specified resource type cannot be found in the image file.')
+2026-04-16 18:31:32,063 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: stop
+2026-04-16 18:31:32,065 [INFO] [CLIPipeServer] [root/controller.py:43]: Exiting Application from CLI...
+2026-04-16 18:31:32,173 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:31:32,173 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:31:32,204 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-16 18:31:32,208 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:31:32,210 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-16 18:31:32,220 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-04-16 18:31:32,236 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:31:32,236 [DEBUG] [MainThread] [systray_widget/systray.py:604]: State file not found.
+2026-04-16 18:31:32,238 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 2689972
+2026-04-16 18:31:32,238 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 2689972
+2026-04-16 18:31:32,238 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 2689972
+2026-04-16 18:31:33,138 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:31:33,139 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:31:33,139 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:31:33,623 [ERROR] [MainThread] [root/weather.py:41]: API key or location is missing. Please provide a valid API key and location.
+2026-04-16 18:31:33,747 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-16 18:31:33,772 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:31:33,995 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-04-16 18:31:33,997 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-16 18:31:33,997 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:31:33,998 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:31:33,998 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:31:34,037 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:31:34,071 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:31:34,074 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-16 18:31:34,301 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 3082660
+2026-04-16 18:31:34,302 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-16 18:31:34,305 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49363
+2026-04-16 18:31:34,306 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-16 18:35:11,401 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:35:11,416 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:35:11,529 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:35:11,529 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:35:11,532 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:35:11,622 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-16 18:35:11,624 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:35:11,628 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-04-16 18:35:11,629 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:35:11,629 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 3082660
+2026-04-16 18:35:11,630 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 3082660
+2026-04-16 18:35:11,630 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 3082660
+2026-04-16 18:35:11,888 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:35:11,889 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:35:11,889 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:35:12,280 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:35:12,361 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:35:12,361 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - weather
+      location:
+      - Input should be a valid string
+      api_key:
+      - Input should be a valid string
+      
+ - wallpapers
+      image_path:
+        str:
+        - Input should be a valid string
+        list[str]:
+        - Input should be a valid list
+      
+2026-04-16 18:35:12,384 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:35:12,384 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:35:12,422 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:35:46,164 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:35:46,180 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:35:46,287 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:35:46,287 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:35:46,289 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:35:46,366 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:35:46,656 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:35:46,656 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:35:46,656 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:35:47,035 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:35:47,119 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:35:47,119 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - weather
+      location:
+      - Input should be a valid string
+      
+ - wallpapers
+      image_path:
+        str:
+        - Input should be a valid string
+        list[str]:
+        - Input should be a valid list
+      
+2026-04-16 18:35:47,136 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:35:47,136 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:35:47,183 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:35:47,542 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:36:09,893 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:36:09,907 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:36:10,012 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:36:10,012 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:36:10,013 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:36:10,099 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:36:10,382 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:36:10,382 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:36:10,382 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:36:10,807 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:36:10,888 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:36:10,888 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - weather
+      location:
+      - Input should be a valid string
+      
+2026-04-16 18:36:10,905 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:36:10,906 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:36:10,954 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:36:22,609 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:36:49,146 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:36:49,160 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:36:49,261 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:36:49,261 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:36:49,262 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:36:49,341 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:36:49,619 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:36:49,619 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:36:49,619 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:36:50,007 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:36:50,096 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:36:50,096 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:36:50,096 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:36:50,156 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:36:50,418 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:36:50.418610
+2026-04-16 18:36:52,790 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:36:52,805 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:36:52,920 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:36:52,920 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:36:52,921 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:36:52,990 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:36:53,285 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:36:53,285 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:36:53,285 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:36:53,677 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:36:53,756 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:36:53,757 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:36:53,757 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:36:53,816 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:36:54,212 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:36:54.212100
+2026-04-16 18:37:06,978 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:37:06,994 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:37:07,102 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:37:07,102 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:37:07,104 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:37:07,166 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:37:07,456 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:37:07,456 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:37:07,456 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:37:07,843 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:37:07,926 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:37:07,926 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:37:07,926 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:37:07,989 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:37:08,176 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:37:08,413 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:37:08.413056
+2026-04-16 18:37:12,979 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:37:14,504 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:38:09,887 [ERROR] [MainThread] [root/base.py:124]: Failed to execute callback of type '' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 122, in _run_callback
+KeyError: ''
+2026-04-16 18:40:03,919 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:40:03,934 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:40:04,037 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:40:04,037 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:40:04,039 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:40:04,105 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:40:04,393 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:40:04,394 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:40:04,394 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:40:04,749 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:40:04,836 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:40:04,915 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:40:04,916 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:40:04,916 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:40:04,977 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:40:05,209 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:40:05.209304
+2026-04-16 18:40:08,912 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:40:14,469 [INFO] [MainThread] [root/utilities.py:462]: YASB added to startup
+2026-04-16 18:40:17,048 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:40:17,148 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:40:17,149 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:40:17,208 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:40:17,497 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:40:17,497 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:40:17,497 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:40:17,850 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:40:17,938 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:40:18,027 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:40:18,028 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:40:18,028 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:40:18,103 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:40:18,299 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:40:18.299346
+2026-04-16 18:41:23,009 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:41:23,025 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:41:23,141 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:41:23,141 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:41:23,143 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:41:23,201 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:41:23,491 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:41:23,491 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:41:23,491 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:41:23,852 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:41:23,943 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:41:24,022 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:41:24,023 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:41:24,023 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:41:24,080 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:41:24,197 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:41:24.197219
+2026-04-16 18:41:31,136 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:41:31,244 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:41:31,244 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:41:31,298 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:41:31,583 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:41:31,584 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:41:31,584 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:41:31,930 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:41:32,018 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:41:32,100 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:41:32,101 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:41:32,101 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:41:32,160 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:41:32,260 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:41:32.260965
+2026-04-16 18:41:50,360 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:41:50,376 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:41:50,490 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:41:50,491 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:41:50,492 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:41:50,561 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:41:50,869 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:41:50,870 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:41:50,870 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:41:51,201 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:41:51,303 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:41:51,378 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:41:51,378 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:41:51,378 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:41:51,437 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:41:51,683 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:41:51.683077
+2026-04-16 18:42:04,291 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:42:15,443 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:42:15,458 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:42:15,561 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:42:15,561 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:42:15,563 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:42:15,623 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:42:15,908 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:42:15,909 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:42:15,909 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:42:16,247 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:42:16,353 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:42:16,439 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:42:16,439 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:42:16,440 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:42:16,516 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:42:16,609 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:42:16,667 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:42:16.667398
+2026-04-16 18:42:19,935 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:42:20,038 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:42:20,038 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:42:20,102 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:42:20,393 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:42:20,393 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:42:20,393 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:42:20,722 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:42:20,827 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:42:20,905 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:42:20,906 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:42:20,906 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:42:20,980 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:42:21,276 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:42:21.276070
+2026-04-16 18:42:44,000 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:42:44,014 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:42:44,120 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:42:44,120 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:42:44,121 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:42:44,202 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:42:44,496 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:42:44,496 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:42:44,496 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:42:44,831 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:42:44,936 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:42:45,014 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:42:45,015 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:42:45,015 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:42:45,076 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:42:45,172 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:42:45.172063
+2026-04-16 18:43:06,013 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:43:06,029 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-16 18:43:06,138 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:43:06,138 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:43:06,140 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:43:06,203 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:43:06,486 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:43:06,486 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:43:06,486 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:43:06,815 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:43:06,929 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:43:07,029 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:43:07,030 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:43:07,030 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:43:07,108 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:43:07,265 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:43:07.265344
+2026-04-16 18:43:08,529 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:43:28,954 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:43:28,967 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:43:29,069 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:43:29,069 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:43:29,084 [WARNING] [MainThread] [root/controller.py:18]: Reload already in progress, ignoring additional reload request.
+2026-04-16 18:43:29,084 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-16 18:43:29,141 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:43:29,424 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:43:29,424 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:43:29,424 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:43:29,768 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:43:29,878 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:43:29,979 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:43:29,980 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:43:29,980 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:43:30,033 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:43:30,277 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:43:30.277837
+2026-04-16 18:43:53,590 [DEBUG] [Thread-5] [root/watcher.py:84]: Stylesheet modified: c:\users\pov\.config\yasb\styles.css
+2026-04-16 18:45:17,182 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:45:17,287 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:45:17,287 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:45:17,355 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:45:17,640 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:45:17,640 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:45:17,641 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:45:17,984 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:45:18,096 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:45:18,192 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:45:18,193 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:45:18,193 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:45:18,245 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:45:18,447 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:45:18.447616
+2026-04-16 18:45:21,780 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:45:50,003 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:45:50,104 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:45:50,104 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:45:50,191 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:45:50,465 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:45:50,466 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:45:50,466 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:45:50,795 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:45:50,900 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:45:50,988 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:45:50,989 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:45:50,989 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:45:51,046 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:45:51,319 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:45:51.319716
+2026-04-16 18:49:19,101 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:49:19,202 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:49:19,203 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:49:19,290 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:49:19,602 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:49:19,602 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:49:19,602 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:49:19,943 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:49:19,979 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-16 18:49:20,113 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:49:20,206 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:49:20,207 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:49:20,207 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:49:20,262 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:49:20,290 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:49:20,291 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-16 18:49:20,505 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:49:20.505072
+2026-04-16 18:49:20,520 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 3279324
+2026-04-16 18:49:20,521 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-16 18:49:20,524 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49363
+2026-04-16 18:49:20,524 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-16 18:49:23,321 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 109] The pipe has been ended.
+2026-04-16 18:49:59,018 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:49:59,132 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:49:59,132 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:49:59,221 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:49:59,229 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:49:59,230 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 3279324
+2026-04-16 18:49:59,230 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 3279324
+2026-04-16 18:49:59,230 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 3279324
+2026-04-16 18:49:59,505 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:49:59,505 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:49:59,505 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:49:59,840 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:49:59,874 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-16 18:50:00,003 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:50:00,093 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:50:00,094 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:50:00,094 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:50:00,146 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:50:00,172 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:50:00,173 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-16 18:50:00,316 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:50:00.316710
+2026-04-16 18:50:00,393 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 787894
+2026-04-16 18:50:00,396 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-16 18:50:00,400 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49363
+2026-04-16 18:50:00,400 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-16 18:50:05,578 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pov\.config\yasb\config.yaml
+2026-04-16 18:50:24,153 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:50:24,253 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:50:24,253 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:50:24,346 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:50:24,353 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:50:24,353 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 787894
+2026-04-16 18:50:24,353 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 787894
+2026-04-16 18:50:24,354 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 787894
+2026-04-16 18:50:24,621 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:50:24,621 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:50:24,621 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:50:24,969 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:50:25,002 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-16 18:50:25,127 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:50:25,221 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:50:25,222 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:50:25,222 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:50:25,275 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:50:25,302 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:50:25,303 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-16 18:50:25,515 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 3410396
+2026-04-16 18:50:25,517 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-16 18:50:25,520 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49363
+2026-04-16 18:50:25,520 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-16 18:50:25,535 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:50:25.535861
+2026-04-16 18:51:03,856 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\pov\.config\yasb\styles.css
+2026-04-16 18:51:09,900 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:51:10,006 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:51:10,006 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:51:10,113 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:51:10,124 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:51:10,124 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 3410396
+2026-04-16 18:51:10,124 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 3410396
+2026-04-16 18:51:10,124 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 3410396
+2026-04-16 18:51:10,380 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:51:10,380 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:51:10,380 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:51:10,719 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:51:10,753 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-16 18:51:10,879 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:51:10,972 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:51:10,973 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:51:10,973 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:51:11,027 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:51:11,052 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:51:11,053 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-16 18:51:11,148 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:51:11.148765
+2026-04-16 18:51:11,288 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 6097130
+2026-04-16 18:51:11,289 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-16 18:51:11,292 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49363
+2026-04-16 18:51:11,293 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-16 18:52:52,574 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 18:52:52,680 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 18:52:52,680 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 18:52:52,773 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 18:52:52,805 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:52:52,805 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 6097130
+2026-04-16 18:52:52,805 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 6097130
+2026-04-16 18:52:52,805 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 6097130
+2026-04-16 18:52:53,041 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 18:52:53,041 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 18:52:53,041 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 18:52:53,378 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 18:52:53,412 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-16 18:52:53,537 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 18:52:53,627 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 18:52:53,628 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 18:52:53,628 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 18:52:53,680 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 18:52:53,708 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 18:52:53,709 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-16 18:52:53,928 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 853520
+2026-04-16 18:52:53,931 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-16 18:52:53,936 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49363
+2026-04-16 18:52:53,936 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-16 18:52:54,080 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:52:54.080902
+2026-04-16 19:01:02,907 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\pov\.config\yasb\styles.css
+2026-04-16 19:02:00,505 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-16 19:02:00,607 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-16 19:02:00,607 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-16 19:02:00,658 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-16 19:02:00,668 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 19:02:00,668 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 853520
+2026-04-16 19:02:00,669 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 853520
+2026-04-16 19:02:00,669 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 853520
+2026-04-16 19:02:00,955 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-16 19:02:00,956 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-16 19:02:00,956 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-16 19:02:01,286 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-16 19:02:01,319 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-16 19:02:01,454 [DEBUG] [MainThread] [root/win32_accent.py:124]: Failed to apply settings: [WinError 0] The operation completed successfully.
+2026-04-16 19:02:01,556 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-16 19:02:01,556 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pov\.config\yasb
+2026-04-16 19:02:01,556 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-16 19:02:01,651 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-16 19:02:01,675 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pov\AppData\Local\YASB\systray_state_NOPSYSINCSCEPTREY320000000000001.json
+2026-04-16 19:02:01,676 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-16 19:02:01,882 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 19:02:01.882290
+2026-04-16 19:02:01,896 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 9767876
+2026-04-16 19:02:01,897 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-16 19:02:01,900 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49363
+2026-04-16 19:02:01,901 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-16 19:12:01,433 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 19:12:01.433039
+2026-04-16 19:22:01,436 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 19:22:01.436691
+2026-04-16 19:32:01,429 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 19:32:01.429541
+2026-04-16 19:42:01,454 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 19:42:01.454497
+2026-04-16 19:52:01,425 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 19:52:01.425512
+2026-04-16 20:02:01,431 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 20:02:01.431883
+2026-04-16 20:12:01,459 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 20:12:01.459326
+2026-04-16 20:22:01,464 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 20:22:01.463978
+2026-04-16 20:32:01,433 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 20:32:01.433555
+2026-04-16 20:42:01,437 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 20:42:01.437651
+2026-04-16 20:52:01,480 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 20:52:01.480045
+2026-04-16 21:02:01,498 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 21:02:01.498828
+2026-04-16 21:12:01,468 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 21:12:01.468166
+2026-04-16 21:22:01,470 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 21:22:01.470528
+2026-04-16 21:32:01,452 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 21:32:01.452765
+2026-04-16 21:38:48,777 [DEBUG] [MainThread] [root/utilities.py:262]: Failed to get version info for D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\BlackOps3.exe: (1813, 'GetFileVersionInfo:GetFileVersionInfoSize', 'The specified resource type cannot be found in the image file.')
+2026-04-16 21:42:01,511 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 21:42:01.511542
+2026-04-16 21:43:09,046 [DEBUG] [MainThread] [root/utilities.py:262]: Failed to get version info for D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\BlackOps3.exe: (1813, 'GetFileVersionInfo:GetFileVersionInfoSize', 'The specified resource type cannot be found in the image file.')
+2026-04-16 21:52:01,302 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\pov\.config\yasb\styles.css
+2026-04-16 21:52:01,450 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 21:52:01.450756
+2026-04-16 22:02:00,187 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 22:02:00.187784
